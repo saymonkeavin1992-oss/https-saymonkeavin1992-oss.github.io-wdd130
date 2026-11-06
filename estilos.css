@@ -1,22 +1,40 @@
 css
-/* Limita a largura do elemento main */
+
+nav {
+    background-color: #333333;
+    padding: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+}
+
+
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Controla especificamente a imagem de perfil dentro do main */
+h1 {
+    color: #222222;
+}
+
+
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid #333333;
+    padding: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
-/* Altera o preenchimento de todos os parágrafos para 0 pixels */
 p {
     padding: 0;
 }
 
-/* Estilização completa do elemento aside */
+
 aside {
     width: 300px;
     margin: 20px auto;
@@ -26,14 +44,14 @@ aside {
     color: #222222;
 }
 
-/* Controla a imagem do estado/país dentro do aside */
 aside img {
     width: 200px;
-    height: auto; /* Mantém a proporção e evita distorções */
+    height: auto;
 }
 
-/* Estilização do footer com as 3 regras solicitadas */
+/* Regras do Rodapé */
 footer {
-    margin-top: 40px;          /* 1️⃣ Adiciona uma margem superior */
-    border-top: 1px solid #333;    /* 2️⃣ Adiciona uma borda superior */
-    text-align: center;         /* 3️⃣ Alinha o texto ao centro */
+    margin-top: 40px;
+    border-top: 1px solid #333333;
+    text-align: center;
+}
